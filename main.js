@@ -29,8 +29,8 @@ function fetchData(callback) {
 		const targetId = document.querySelector("#targetId");
 		const targetP = document.querySelector("#targetP");
 		
-		targetId.innerHTML = data.slip.id;
-		targetP.innerHTML = `“${data.slip.advice}”`;
+		targetId.textContent = data.slip.id;
+		targetP.textContent = `“${data.slip.advice}”`;
 	}
   }
   

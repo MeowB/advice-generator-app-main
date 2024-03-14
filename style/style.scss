@@ -76,9 +76,24 @@ main {
 			bottom: -35px;
 			cursor: pointer;
 		}
+
+		button:hover {
+			box-shadow: 0px 0px 25px $c-Neon-Green;
+		}
 	}
 
+	
+
 }
+	footer {
+		font-size: 11px;
+		text-align: center;
+		color: $c-Light-Cyan;
+		a { 
+			color: $c-Neon-Green;
+		}
+
+	}
 
 @media only screen and(min-width: 400px) {
 	main {

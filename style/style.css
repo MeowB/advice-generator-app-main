@@ -60,6 +60,18 @@ main .wrapper button {
   bottom: -35px;
   cursor: pointer;
 }
+main .wrapper button:hover {
+  box-shadow: 0px 0px 25px #52ffa8;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  color: #cee3e9;
+}
+footer a {
+  color: #52ffa8;
+}
 
 @media only screen and (min-width: 400px) {
   main .wrapper #divider-mobile {
