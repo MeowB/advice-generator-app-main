@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #1f2632;
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: #cee3e9;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+  flex: 1;
+  display: flex;
+}
+main .wrapper {
+  background-color: #323a49;
+  margin: auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+}
+main .wrapper #divider-desktop {
+  display: none;
+}
+main .wrapper h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #52ffa8;
+  padding-bottom: 40px;
+}
+main .wrapper p {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+main .wrapper button {
+  padding: 20px;
+  border-radius: 50%;
+  line-height: 0;
+  border: none;
+  background-color: #52ffa8;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: -35px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 400px) {
+  main .wrapper #divider-mobile {
+    display: none;
+  }
+  main .wrapper #divider-desktop {
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
